@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restyle - The Washington Times</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- MENU LATERALE -->
+  <div id="side-menu" class="side-menu">
+    <button id="close-menu" class="close-btn">✕</button>
+    <input type="text" class="menu-search" placeholder="Cerca..." title="Digita per cercare" />
+    <ul class="menu-list">
+      <li><a href="#policy">Policy</a></li>
+      <li><a href="#commentary">Commentary</a></li>
+      <li><a href="#sponsored">Sponsored</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#video">Video/Podcasts</a></li>
+      <li><a href="#games">Games</a></li>
+      <li><a href="#login"><strong>Login</strong></a></li>
+      <li><a href="#register"><strong>Registrati</strong></a></li>
+    </ul>
+  </div>
+
+  <!-- HEADER FISSO -->
+  <header class="main-header">
+    <div class="logo-wrapper">
+      <button id="open-menu" class="hamburger-btn" aria-label="Apri menu" title="Apri il menu">☰</button>
+      <div class="logo">WASHINGTON TIMES</div>
+      <a href="#" class="subscribe-top">Abbonati! 0,99 €</a>
+    </div>
+  </header>
+  <!-- MENU ROSSO -->
+<nav class="top-nav">
+  <ul>
+    <li><a href="#flashnews">Flash News</a></li>
+    <li><a href="#politics">Politics</a></li>
+    <li><a href="#sports">Sports</a></li>
+    <li><a href="#reportage">Reportage</a></li>
+    <li><a href="#sponsored">Sponsored</a></li>
+    <li><a href="#weather">Weather</a></li> 
+  </ul>
+</nav>
+<div class="stock-ticker">
+  <div class="ticker-wrapper">
+    <span class="ticker-item" data-symbol="indice1">INDICE DI BORSA 1: <span class="ticker-change ticker-up">+1.24%</span></span>
+    <span class="ticker-item" data-symbol="indice2">INDICE DI BORSA 2: <span class="ticker-change ticker-up">-0.74%</span></span>
+    <span class="ticker-item" data-symbol="indice3">INDICE DI BORSA 3: <span class="ticker-change ticker-down">-0.87%</span></span>
+    <span class="ticker-item" data-symbol="indice4">INDICE DI BORSA 4: <span class="ticker-change ticker-up">+0.65%</span></span>
+    <span class="ticker-item" data-symbol="indice5">INDICE DI BORSA 5: <span class="ticker-change ticker-down">-0.22%</span></span>
+    <span class="ticker-item" data-symbol="indice6">INDICE DI BORSA 6: <span class="ticker-change ticker-up">+2.73%</span></span>
+    <span class="ticker-item" data-symbol="indice7">INDICE DI BORSA 7: <span class="ticker-change ticker-up">+0.65%</span></span>
+    <span class="ticker-item" data-symbol="indice8">INDICE DI BORSA 8: <span class="ticker-change ticker-down">-0.22%</span></span>
+    <span class="ticker-item" data-symbol="indice9">INDICE DI BORSA 9: <span class="ticker-change ticker-up">+2.73%</span></span>
+    <span class="ticker-item" data-symbol="indice10">INDICE DI BORSA 10: <span class="ticker-change ticker-up">+1.24%</span></span>
+  </div>
+</div>
+
+  
+  <!-- SPAZIO FISSO -->
+  <div style="height: 90px;"></div>
+
+  <!-- LAYOUT PRINCIPALE -->
+  <main class="news-layout">
+
+    <!-- REPORTAGE -->
+    <div class="section-container reportage-container">
+      <div class="section-header">REPORTAGE</div>
+      <aside class="left-column" id="reportage">
+        <div class="report"><h3>REPORTAGE 1</h3><img src="https://placehold.co/200x450?text=200x450" alt="Reportage 1"></div>
+        <div class="report"><h3>REPORTAGE 2</h3><img src="https://placehold.co/200x450?text=200x450" alt="Reportage 2"></div>
+        <div class="report"><h3>REPORTAGE 3</h3><img src="https://placehold.co/200x450?text=200x450" alt="Reportage 3"></div>
+      </aside>
+    </div>
+
+    <!-- MAIN NEWS -->
+    <div class="section-container mainnews-container">
+      <div class="section-header">MAIN NEWS</div>
+      <section class="main-articles">
+        <article class="hero-article" id="politics">
+          <div class="hero-box">
+            <h2><strong>POLITICS:</strong> Lorem ipsum dolor sit amet</h2>
+            <img src="https://placehold.co/800x400?text=FOTO+1" alt="Foto 1" title="Immagine articolo politico">
+          </div>
+          <p><strong>Didascalia:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p class="author">Published by: Autore Fittizio</p>
+        </article>
+
+        <hr class="article-divider" />
+
+        <article class="hero-article" id="sports">
+          <div class="hero-box">
+            <h2><strong>SPORT:</strong> Lorem ipsum dolor sit amet</h2>
+            <img src="https://placehold.co/800x400?text=FOTO+2" alt="Foto 2" title="Immagine articolo sport">
+          </div>
+          <p><strong>Didascalia:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p class="author">Published by: Autore Fittizio</p>
+        </article>
+
+        <hr class="article-divider" />
+
+        <article class="hero-article" id="sponsored">
+          <div class="hero-box">
+            <h2><strong>TECH:</strong> Lorem ipsum dolor sit amet</h2>
+            <img src="https://placehold.co/800x400?text=FOTO+3" alt="Foto 3" title="Immagine articolo sponsored">
+          </div>
+          <p><strong>Didascalia:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p class="author">Published by: Autore Fittizio</p>
+        </article>
+      </section>
+    </div>
+
+    <!-- FLASH NEWS -->
+    <div class="section-container flashnews-container">
+      <div class="section-header">FLASH NEWS</div>
+      <aside class="side-news" id="flashnews">
+        <ul>
+          <li><strong>23:00</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>22:30</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>22:00</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>21:30</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>21:00</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>20:30</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>20:00</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>19:30</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>19:00</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>18:30</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>18:00</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>17:30</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>17:00</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>16:30</strong> – Lorem ipsum dolor sit amet...</li>
+          <li><strong>16:00</strong> – Lorem ipsum dolor sit amet...</li>
+        </ul>
+      </aside>
+    <!-- SEZIONE METEO -->
+<div id="weather">
+  <div class="section-header">WEATHER</div>
+  <div class="weather-box">
+    <div class="weather-today">
+      <div class="weather-icon">
+        <img src="sole.png" alt="Sunny" />
+      </div>
+      <div class="weather-details">
+        <div class="weather-temp">26°C</div>
+        <div class="weather-desc">Sunny</div>
+      </div>
+    </div>
+
+    <div class="weather-week">
+      <div class="day">
+        <span class="day-name">Mon</span>
+        <img src="cloud.png" alt="Cloudy">
+        <span class="temp">22°/14°</span>
+      </div>
+      <div class="day">
+        <span class="day-name">Tue</span>
+        <img src="temporale.png" alt="Rain">
+        <span class="temp">19°/13°</span>
+      </div>
+      <div class="day">
+        <span class="day-name">Wed</span>
+        <img src="sole.png" alt="Sunny">
+        <span class="temp">24°/15°</span>
+      </div>
+      <div class="day">
+        <span class="day-name">Thu</span>
+        <img src="partial.png" alt="Partly Cloudy">
+        <span class="temp">21°/14°</span>
+      </div>
+      <div class="day">
+        <span class="day-name">Fri</span>
+        <img src="fulmine.png" alt="Thunderstorm">
+        <span class="temp">18°/12°</span>
+      </div>
+      <div class="day">
+        <span class="day-name">Sat</span>
+        <img src="cloud.png" alt="Cloudy">
+        <span class="temp">20°/13°</span>
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="big-footer">
+    <div class="footer-top">
+      <div class="footer-section">
+        <h3>More News</h3>
+        <ul>
+          <li><strong>SECURITY</strong><br><a href="#">Lorem ipsum dolor sit amet...</a></li>
+          <li><strong>HEALTH</strong><br><a href="#">Lorem ipsum dolor sit amet...</a></li>
+          <li><strong>TRAVEL</strong><br><a href="#">Lorem ipsum dolor sit amet...</a></li>
+          <li><strong>BUSINESS & ECONOMY</strong><br><a href="#">Lorem ipsum dolor sit amet...</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <div class="newspaper-thumbnail">
+          <img src="https://placehold.co/120x150?text=Miniature" alt="journal miniature">
+          <div class="newspaper-info">
+            <em>Washington Times</em><br>
+            <a href="#" class="read-issue">READ THIS EDITION!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h3>SUBSCRIPTION</h3>
+        <ul>
+          <li><a href="#">Discover more</a></li>
+          <li><a href="#">Services and prices</a></li>
+          <li><a href="#">Exlusive benefits</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-section">
+        <h3>Follow us!</h3>
+        <div class="social-icons">
+          <a href="#" title="Facebook">F</a>
+          <a href="#" title="LinkedIn">in</a>
+          <a href="#" title="YouTube">YT</a>
+          <a href="#" title="Instagram">IG</a>
+          <a href="#" title="X">X</a>
+        </div>
+      </div>
+      <ul>
+        <li><a href="#">Cookie</a></li>
+        <li><a href="#">Site map</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Site regulation</a></li>
+        <li><a href="#">Subscriptions</a></li>
+        <li><a href="#">Newsletter</a></li>
+      </ul>
+    </div>
+  </footer>
+  <div id="subscribe-banner" class="subscribe-banner hidden">
+    <button id="close-banner" class="close-banner" aria-label="Chiudi">✕</button>
+    <h2><span class="highlighted">Are you subscribed?</span></h2>
+<p>Log in to continue reading without limits or register now!</p>
+    <div class="banner-buttons">
+      <a href="#login" class="banner-btn">Login</a>
+      <a href="#register" class="banner-btn">Register</a>
+    </div>
+  </div>
+  
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
